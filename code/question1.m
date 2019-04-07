@@ -9,9 +9,8 @@ alpha = 100;
 R4 = 0.1;
 RO = 1000;
 Cn = 0;
-In = 0;
 
-[G, C] = generateModel(R1, Cap, R2, L, R3, alpha, R4, RO, Cn, In);
+[G, C] = generateModel(R1, Cap, R2, L, R3, alpha, R4, RO, Cn);
 F = generateF(1,0,1);
 
 
